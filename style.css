@@ -1,0 +1,177 @@
+
+}
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;    
+}
+
+#logo img{
+    max-width: 50%;
+    padding-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+#logo{
+    background-color: whitesmoke;
+}
+
+li a{
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+li{
+    text-align: right;
+    margin-right: 30px;
+}
+a img{
+    max-width: 7%;
+    margin-left: 20px;
+}
+.a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#logoname{
+    font-size: 34px;
+    margin-left: 10px;
+}
+
+#bt{
+    margin-left: 40px;
+}
+/*creating  Grid layout*/
+
+
+
+.header{
+    grid-area: head;
+    background-image: url(pasta.jpg);
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.header h1{
+    
+    font-weight: bold;
+    font-family: serif,sans-serif;  
+    margin: 10px;  
+}
+.header p{
+    margin: 10px;
+}
+
+   
+#mainarea{
+    background-color: bisque;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+article img{
+    width: 93%;
+    margin: 15px;
+    margin-left: 9px;
+    margin-top: -3px;
+}
+article h3{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+article p{
+    margin: 10px;
+}
+
+p a:visited{
+    color: purple;
+}
+
+p a:active{
+    color: purple;
+}
+
+#mainarea2{
+    background-color: bisque;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+/*.mainarea2 img{
+    margin: 19px;
+    width: 93%;
+    margin-left: 9px;   
+}
+*/
+#mainarea3{
+    background-color: bisque;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;   
+}
+#oh{
+    margin-left: 60px;
+}
+
+
+.footer{
+    grid-area: foot;
+    
+}
+
+article, h2, p{
+    margin-left: 5px;
+}
+
+article > h2{
+    margin-top: 10px;
+}
+#ftlg{
+    margin-top: 20px;
+    max-width:90px;
+    margin-left: 20px;
+}
+#ft{
+    margin: 40px 20px 20px 20px;
+    border-top: 2px solid black;
+    padding-left: 400px;  
+}
+
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke; 
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+@media(max-width:600px){
+    
+    #ft{
+        margin: 40px 20px 20px 20px;
+        border-top: 2px solid black;
+        padding-left: 100px; 
+    }
+
+    #mainarea3{
+        background-color: bisque;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 0px; 
+    }
+    
+    #footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: whitesmoke;
+        margin-left: -10px;
+    }
+}
+
+
+ 
